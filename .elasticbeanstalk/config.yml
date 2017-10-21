@@ -1,17 +1,17 @@
 branch-defaults:
   default:
-    environment: lottery-test-task-env
+    environment: lottery-test-task-app-env
   master:
-    environment: lottery-test-task-env
+    environment: lottery-test-task-app-env
 environment-defaults:
   sandboxapplication-env1:
     branch: master
     repository: lottery-test-task
 global:
-  application_name: My First Elastic Beanstalk Application
+  application_name: LotteryTestTaskApp
   default_ec2_keyname: null
   default_platform: arn:aws:elasticbeanstalk:eu-west-2::platform/Node.js running on
-    64bit Amazon Linux 2017.03
+    64bit Amazon Linux 2017.03 v4.3.0
   default_region: eu-west-2
   include_git_submodules: true
   instance_profile: null
