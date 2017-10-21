@@ -4,7 +4,7 @@ branch-defaults:
   master:
     environment: lottery-test-task-app-env
 environment-defaults:
-  sandboxapplication-env1:
+  lottery-test-task-app-env:
     branch: master
     repository: lottery-test-task
 global:
