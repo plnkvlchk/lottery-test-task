@@ -10,9 +10,9 @@ environment-defaults:
 global:
   application_name: LotteryTestTaskApp
   default_ec2_keyname: null
-  default_platform: arn:aws:elasticbeanstalk:eu-west-2::platform/Node.js running on
+  default_platform: arn:aws:elasticbeanstalk:us-east-2::platform/Node.js running on
     64bit Amazon Linux 2017.03 v4.3.0
-  default_region: eu-west-2
+  default_region: us-east-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
