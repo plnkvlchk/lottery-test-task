@@ -26,3 +26,5 @@ const server = app.listen(port, async function () {
 
     await restartJobs()
 })
+
+export default app
