@@ -12,6 +12,9 @@ machine:
     PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
 
 dependencies:
+  pre:
+    - sudo apt-get install python-dev
+    - sudo pip install 'awsebcli==3.7.4' --force-reinstall
   override:
     - npm install
   cache_directories:
