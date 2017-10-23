@@ -28,6 +28,7 @@ deployment:
   production:
     branch: master
     commands:
+      - npm run build
       - sudo chmod u+x setup-eb.sh
       - ./setup-eb.sh
       - eb deploy
