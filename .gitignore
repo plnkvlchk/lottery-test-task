@@ -4,3 +4,4 @@ package-lock.json
 lottery-test-task.7z
 id_rsa_1
 is_rsa_1.pub
+dist/*
