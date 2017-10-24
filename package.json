@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node dist/index.js",
+    "start": "yarn up && yarn run build && node dist/index.js",
     "build": "babel app --out-dir dist/app --ignore \"**/*.test.js\" && babel index.js --out-dir dist",
     "test": "mocha ./app/**/*.test.js ./app/**/**/*.test.js --compilers js:babel-core/register --require babel-polyfill || exit 0",
     "up": "knex-migrate up",
