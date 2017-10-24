@@ -1,12 +1,12 @@
 branch-defaults:
   default:
-    environment: lottery-test-task-app-env
+    environment: lotterytesttask-env
   master:
-    environment: lottery-test-task-app-env
+    environment: lotterytesttask-env
 environment-defaults:
-  lottery-test-task-app-env:
+  lotterytesttask-env:
     branch: master
-    repository: lottery-test-task
+    repository: lotterytesttask-env
 global:
   application_name: LotteryTestTaskApp
   default_ec2_keyname: null
