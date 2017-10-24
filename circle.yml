@@ -16,13 +16,13 @@ dependencies:
     - sudo apt-get install python-dev
     - sudo pip install 'awsebcli==3.7.4' --force-reinstall
   override:
-    - npm install
+    - yarn
   cache_directories:
-    - ~/.cache/node_modules
+    - ~/.cache/yarn
 
 test:
   override:
-    - npm run up && npm test
+    - yarn run up && yarn test
 
 deployment:
   production:
