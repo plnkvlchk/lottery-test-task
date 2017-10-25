@@ -1,14 +1,14 @@
 branch-defaults:
   default:
-    environment: lotterytesttask-env
+    environment: lotteryapp-env
   master:
-    environment: lotterytesttask-env
+    environment: lotteryapp-env
 environment-defaults:
-  lotterytesttask-env:
+  lotteryapp-env:
     branch: master
-    repository: lotterytesttask-env
+    repository: lotteryapp-env
 global:
-  application_name: LotteryTestTaskApp
+  application_name: LotteryApp
   default_ec2_keyname: null
   default_platform: arn:aws:elasticbeanstalk:us-east-2::platform/Node.js running on
     64bit Amazon Linux 2017.03 v4.3.0
