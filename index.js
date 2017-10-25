@@ -6,7 +6,7 @@ import { CronJob } from 'cron'
 
 global.gamesCronJobs = {}
 
-const port = 8080
+const port = process.env.PORT || 8080
 const app = express()
 
 app.use(bodyParser.json())
